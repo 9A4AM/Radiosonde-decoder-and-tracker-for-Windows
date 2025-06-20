@@ -7,3 +7,6 @@ It also supports real-time map display in your default web browser, showing the 
 The application can optionally upload telemetry to APRS servers
 
 Binary file is in Release ready for download.
+
+IMPORTANT: Antivirus programs may report that the Radiosonde decoder and tracker EXE is infected with a virus or is a virus itself, however, the application is safe!
+The reason is the background launching of instances (SDR, Decoder, APRS connection), which some antivirus programs mistakenly identify as malicious behavior.

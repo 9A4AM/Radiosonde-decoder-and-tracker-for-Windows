@@ -6,3 +6,4 @@ The decoder tracks radiosondes and displays their telemetry in a dedicated windo
 It also supports real-time map display in your default web browser, showing the full flight path and the last packet's data via marker popup. The map can also be loaded from a log file.
 The application can optionally upload telemetry to APRS servers
 
+Binary file is in Release ready for download.

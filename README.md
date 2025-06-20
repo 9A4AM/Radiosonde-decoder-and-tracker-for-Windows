@@ -1,2 +1,8 @@
 # Radiosonde-decoder-and-tracker-for-Windows
-Radiosonde decoder and tracker for Windows 64
+The Radiosonde decoder and tracker is designed for the Windows 64-bit operating system. It is distributed as a single EXE file which, upon launch, sets up everything necessary for operation. It is based on the RS1729 decoder for meteorological sondes and supports the following four sonde types: RS-41, M10, M20, and DFM (with subtypes).
+Originally, it was intended to run standalone with the popular RTL-SDR device based on the RTL2832 chip. In order to function correctly, you must install the ZADIG driver. If you have already used SDRs, you probably have everything set up.
+Later, I added support for decoding via the PC’s audio input using tools such as Virtual Audio Cable with SDR#, SDR++, etc. In this mode, decoding quality depends on audio settings. However, when using RTL-SDR directly, no configuration is needed and IQ signals are processed for better performance.
+The decoder tracks radiosondes and displays their telemetry in a dedicated window. All data is saved into a log file located in the LOG directory inside the application folder.
+It also supports real-time map display in your default web browser, showing the full flight path and the last packet's data via marker popup. The map can also be loaded from a log file.
+The application can optionally upload telemetry to APRS servers
+

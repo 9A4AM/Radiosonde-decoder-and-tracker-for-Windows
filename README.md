@@ -4,7 +4,9 @@ Originally, it was intended to run standalone with the popular RTL-SDR device ba
 Later, I added support for decoding via the PC’s audio input using tools such as Virtual Audio Cable with SDR#, SDR++, etc. In this mode, decoding quality depends on audio settings. However, when using RTL-SDR directly, no configuration is needed and IQ signals are processed for better performance.
 The decoder tracks radiosondes and displays their telemetry in a dedicated window. All data is saved into a log file located in the LOG directory inside the application folder.
 It also supports real-time map display in your default web browser, showing the full flight path and the last packet's data via marker popup. The map can also be loaded from a log file.
-The application can optionally upload telemetry to APRS servers
+The application can optionally upload telemetry to APRS servers.
+
+
 
 Binary file is in Release ready for download.
 

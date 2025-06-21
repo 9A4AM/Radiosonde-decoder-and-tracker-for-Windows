@@ -7,7 +7,7 @@ It also supports real-time map display in your default web browser, showing the 
 The application can optionally upload telemetry to APRS servers.
 
 
-Since version 6.2, a second, optional APRS server has been introduced, under the fields Server2 and Port2.
+Since version 6.1, a second, optional APRS server has been introduced, under the fields Server2 and Port2.
 
 
 Binary file is in Release ready for download.

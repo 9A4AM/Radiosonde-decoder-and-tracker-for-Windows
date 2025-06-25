@@ -12,5 +12,13 @@ Since version 6.1, a second, optional APRS server has been introduced, under the
 
 Binary file is in Release ready for download.
 
+
+Starting from version 6.2 of the Radiosonde Decoder and Tracker, it is possible to use Sonde_handler_gui.exe to automatically track a radiosonde that enters the predefined area of interest (based on the radius set in config.ini). When a radiosonde is detected within that radius, the handler automatically configures the decoder with the correct frequency and radiosonde type, and starts decoding telemetry.
+The download link is:
+https://github.com/9A4AM/Radiosonde-handler-from-Radiosondy.info/releases/tag/v1.0
+
+
+
+
 IMPORTANT: Antivirus programs may report that the Radiosonde decoder and tracker EXE is infected with a virus or is a virus itself, however, the application is safe!
 The reason is the background launching of instances (SDR, Decoder, APRS connection), which some antivirus programs mistakenly identify as malicious behavior.

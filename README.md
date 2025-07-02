@@ -25,3 +25,19 @@ https://github.com/9A4AM/Radiosonde-decoder
 
 IMPORTANT: Antivirus programs may report that the Radiosonde decoder and tracker EXE is infected with a virus or is a virus itself, however, the application is safe!
 The reason is the background launching of instances (SDR, Decoder, APRS connection), which some antivirus programs mistakenly identify as malicious behavior.
+
+
+
+
+⚠️ External Tools Licensing Notice
+This project utilizes external command-line tools that are licensed under the GNU General Public License (GPL), including but not limited to:
+
+SoX – Licensed under GPLv2
+
+rtl_fm (from the rtl-sdr package) – Licensed under GPLv2
+
+rs (or similar radiosonde decoders) – Licensed under GPLv3
+
+These tools are used as standalone programs executed via system calls or subprocesses. No GPL-licensed code is included directly in this project's source code, nor are any GPL libraries linked or modified.
+
+As such, this project is not a derivative work of those GPL programs and is not subject to GPL licensing terms. However, users are responsible for complying with the licenses of the external tools they install and use.

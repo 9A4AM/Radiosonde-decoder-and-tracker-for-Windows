@@ -18,6 +18,9 @@ The download link is:
 https://github.com/9A4AM/Radiosonde-handler-from-Radiosondy.info/releases/tag/v1.0
 
 
+Source code is partially published — the basic principle of this decoder can be seen at the following link:
+https://github.com/9A4AM/Radiosonde-decoder
+
 
 
 IMPORTANT: Antivirus programs may report that the Radiosonde decoder and tracker EXE is infected with a virus or is a virus itself, however, the application is safe!

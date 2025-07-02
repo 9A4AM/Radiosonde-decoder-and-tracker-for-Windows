@@ -36,7 +36,7 @@ SoX – Licensed under GPLv2
 
 rtl_fm (from the rtl-sdr package) – Licensed under GPLv2
 
-rs (or similar radiosonde decoders) – Licensed under GPLv3
+rs (radiosonde decoders) – Licensed under GPLv3
 
 These tools are used as standalone programs executed via system calls or subprocesses. No GPL-licensed code is included directly in this project's source code, nor are any GPL libraries linked or modified.
 

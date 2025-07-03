@@ -49,21 +49,25 @@ This application uses several external open-source command-line tools, which are
 
 The included tools are:
 
-Radiosonde decoders (rs1729)
-rs41mod.exe, m10mod.exe, dfm09mod.exe, mXXmod.exe
+### Radiosonde decoders (rs1729)
 
-License: GNU GPL v3
 
-Source: https://github.com/rs1729/RS
+- **Files**: `rs41mod.exe`, `m10mod.exe`, `dfm09mod.exe`, `mXXmod.exe`
+- **License**: GNU General Public License v3.0
+- **Source code**: [https://github.com/rs1729/RS](https://github.com/rs1729/RS)
+- **Usage**: These tools are used as external decoders and are invoked via `subprocess`.
+- **Location in application**: `AppDir\rs\decoders\`
+- **Replacement**: Users may replace these `.exe` files with compatible versions from the original repository, as required by the GPLv3 license.
 
-RTL-SDR Tool
+
+### RTL-SDR Tool
 rtl_fm.exe
 
 License: GNU GPL v2
 
 Source: https://github.com/rtlsdrblog/rtl-sdr-blog
 
-Audio Processor
+### Audio Processor
 sox.exe (SoX - Sound eXchange)
 
 License: GNU GPL v2

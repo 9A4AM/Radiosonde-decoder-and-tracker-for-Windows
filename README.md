@@ -75,3 +75,8 @@ Each tool remains under its original license, and full source code or links to t
 
 Licensing Clarification
 The main application does not include or derive from GPL-licensed code. Therefore, the GPL requirements apply only to the tools listed above, not to the rest of this application.
+
+****************************************************************************************************************************************************************************************************************************
+
+This application uses map data from OpenStreetMap, licensed under the Open Database License.
+

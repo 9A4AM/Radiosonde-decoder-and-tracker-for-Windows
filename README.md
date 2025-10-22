@@ -77,6 +77,11 @@ Source: https://sourceforge.net/projects/sox/
 These tools are invoked as external processes and are not linked or imported into the main application code. Their inclusion is solely for convenience and proper operation of the system.
 Each tool remains under its original license, and full source code or links to the official repositories are provided above in accordance with their respective GPL licenses.
 
+Starting from version 6.4, both **SOX** and **RTL SDR Tool** are unpacked from the distributed EXE into their respective subdirectories (**SOX** and **RS**) within the application directory (where the EXE is located).
+This means that no additional installation is required — everything is still included with the EXE — but the files are now available for modification by the user under the GPL license.
+Note: The **Radiosonde decoder and tracker** does not necessarily use the latest versions of the external programs it relies on as subprocesses, even though they are essential for the application’s operation!
+
+
 Licensing Clarification
 The main application does not include or derive from GPL-licensed code. Therefore, the GPL requirements apply only to the tools listed above, not to the rest of this application.
 

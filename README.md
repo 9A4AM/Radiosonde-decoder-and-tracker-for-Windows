@@ -4,10 +4,12 @@ Originally, it was intended to run standalone with the popular RTL-SDR device ba
 Later, I added support for decoding via the PC’s audio input using tools such as Virtual Audio Cable with SDR#, SDR++, etc. In this mode, decoding quality depends on audio settings. However, when using RTL-SDR directly, no configuration is needed and IQ signals are processed for better performance.
 The decoder tracks radiosondes and displays their telemetry in a dedicated window. All data is saved into a log file located in the LOG directory inside the application folder.
 It also supports real-time map display in your default web browser, showing the full flight path and the last packet's data via marker popup. The map can also be loaded from a log file.
-The application can optionally upload telemetry to APRS servers.
+The application can optionally upload telemetry to APRS servers and MQTT.
 
 
 Since version 6.1, a second, optional APRS server has been introduced, under the fields Server2 and Port2.
+
+Version 8.0 has MQTT as optional nad RTL_TCP as source input.
 
 
 Binary file is in Release ready for download.
@@ -34,7 +36,7 @@ This project utilizes external command-line tools that are licensed under the GN
 
 SoX – Licensed under GPLv2
 
-rtl_fm (from the rtl-sdr package) – Licensed under GPLv2
+rtl_fm and rtl_tcp (from the rtl-sdr package) – Licensed under GPLv2
 
 rs (radiosonde decoders) – Licensed under GPLv3
 
@@ -61,7 +63,7 @@ The included tools are:
 
 
 ### RTL-SDR Tool
-rtl_fm.exe
+rtl_fm.exe nad rtl_tcp.exe
 
 License: GNU GPL v2
 
